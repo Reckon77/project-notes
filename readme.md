@@ -42,7 +42,7 @@ _Now from the terminal use the following commands_
 
 4. To remove a note
 
-   `node index.js remove --title="First Note"`
+   `node app.js remove --title="First Note"`
 
    ```
    Note removed!
