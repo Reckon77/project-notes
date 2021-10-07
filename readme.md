@@ -97,4 +97,4 @@ _Now from the terminal use the following commands_
 ### Contact
 
 Reckon Mazumdar
-[LinkedIN](https://www.linkedin.com/in/reckon-mazumdar-49b8a7193/) [Github](https://github.com/Reckon77) [Gmail](reckonmazumdar12@gmail.com)
+[LinkedIN](https://www.linkedin.com/in/reckon-mazumdar-49b8a7193/) [Github](https://github.com/Reckon77) [Gmail](mailto:reckonmazumdar12@gmail.com)
