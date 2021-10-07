@@ -1,6 +1,6 @@
 {
   "name": "project-notes",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "A command-line interface npm package that lets you maintain quick notes about your project right from your terminal.",
   "main": "app.js",
   "scripts": {
