@@ -1,6 +1,6 @@
 {
   "name": "project-notes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A command-line interface npm package that lets you maintain quick notes about your project right from your terminal.",
   "main": "app.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/Reckon77/project-notes.git"
   },
   "keywords": [
-    "notes"
+    "notes",
+    "cli"
   ],
   "author": "Reckon Mazumdar",
   "license": "ISC",

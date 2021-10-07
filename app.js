@@ -60,6 +60,22 @@ yargs.command({
         notes.listNotes()
     }
 })
+//read all notes command
+yargs.command({
+    command:'readall',
+    describe:'Read all the note',
+    handler(){
+        notes.readAllNotes()
+    }
+})
+//remove all notes command
+yargs.command({
+    command:'removeall',
+    describe:'Remove all the notes',
+    handler(){
+        notes.removeAll()
+    }
+})
 // yargs.parse()
 // exporting the yargs function
 module.exports={

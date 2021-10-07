@@ -74,6 +74,31 @@ const readNote=(title)=>{
         console.log(chalk.red.inverse(`No note found with title "${title}"`))
     }
 }
+//function to read all the notes
+const readAllNotes=()=>{
+    //loading the notes
+    const notes=loadNotes();
+    if(notes.length!=0){
+        //traversing through the array of notes and reading it
+        let i=1
+        console.log(chalk.green.inverse('Your Notes'))
+        for(let note of notes){
+            console.log(chalk.inverse(`${i}. ${note.title}`))
+            console.log(note.body)
+            i++;
+        }
+    }else{
+        console.log(chalk.red.inverse(`No notes found!`))
+    }
+}
+//function to remove all the notes
+const removeAll=()=>{
+    let arr='[]'
+    //writing an empty array in the notes.json file
+    fs.writeFileSync('./notes.json',arr)
+    console.log(chalk.green.inverse('All notes removed successfully'))
+
+}
 //function to load the notes
 const loadNotes=()=>{
     try{
@@ -101,5 +126,7 @@ module.exports={
     addNote:addNote,
     removeNote:removeNote,
     listNotes:listNotes,
-    readNote:readNote
+    readNote:readNote,
+    readAllNotes:readAllNotes,
+    removeAll:removeAll
 }
